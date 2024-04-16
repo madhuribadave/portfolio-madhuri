@@ -1,13 +1,269 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title></title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <!--------------------------------------------- Image Icon Link --------------------------------------------->
+
+  <link rel="icon" type="image/png" href="https://png.pngtree.com/png-clipart/20190630/original/pngtree-vector-portfolio-icon-png-image_4171290.jpg">
+
+  <!--------------------------------------------- Bootsrap Link --------------------------------------------->
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+  
+
+  <link href="style.css" rel="stylesheet" type="text/css">
+  <title>Madhuri PortFolio</title>
+  
 </head>
 <body>
-<h1>
-	hello world
-</h1>
+
+  <div class  = "navigation-bar">
+    <nav class="navbar navbar-expand-lg navbar-light ">
+      <a class="navbar-brand" href="#"><span class= "brand tracking-in-expand"> MADHURI </span> </a>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+
+      <li class="nav-item active">
+        <a class="nav-link" href="#home"> <span class= " nav-menu"> Home  </span>  <span class="sr-only">(current)</span></a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="#about"><span class= " nav-menu"> About </span> </a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="#skills"><span class= " nav-menu"> Skills </span> </a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="#projects"><span class= " nav-menu">projects</span> </a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="#contact"><span class= "nav-menu"> Contact</span> </a>
+      </li>
+     
+    </ul>
+
+</nav>
+    
+  </div>
+
+
+  <div class="main-container">
+    
+  <section id = "home"  class="portfolio-section "> 
+    <img src="https://cdni.iconscout.com/illustration/premium/thumb/female-coder-is-checking-web-settings-10168056-8227177.png?f=webp" class="home-img scale-in-center ">
+    <div id="home-info" class="typewriter" >
+      
+      <span class="info"style="color:darkblue;">Hello...</span>  <br>
+      <span class="info"style="color:darkblue;">My Name is</span> <br>
+      <span class="myname" style="color:darkblue;">Madhuri</span> <br>
+      <span class="info"style="color:darkblue;">I am <span style="font-style: italic; color:darkblue;">Full stack Developer </span></span> <br>
+
+      <button class="btn-resume">Resume</button>
+
+    </div>
+
+
+  </section>
+<section id = "about" class="portfolio-section about-section"> 
+    <div class="aboutmain">
+      <div class="myimage">
+        <img  class="minion kenburns-bottom"src="https://miro.medium.com/v2/da:true/resize:fit:1200/0*1o4tjKT00KOoigqk" height="400px" width="100%">
+      </div>
+      <div class="carrerobj">
+      <h1 class="heading"style="color: blue";>About</h1>
+        <p class="careerinfo">
+          Aspiring for the job role of full stack developer at your company which would provide me with ample opportunities to showcase my technical abilities while working on complex projects & tasks assigned by you or your team members
+        </p>
+
+       </div>
+     </div>
+    
+  </section>
+
+  
+  <section id = "skills" class="portfolio-section skill-section"> 
+
+    <h1 class="header skill-header"> Skills </h1>
+
+    <table class="skill-tbl" cellspacing="50px">
+      
+      <tr align="center" valign="top">
+
+        <div class="border-skills">
+          <td width="50%" data-aos="fade-right">
+            <h3 class="skills-subheading">Programming Languages</h3>
+
+            <div class="detail-skills">
+              <li>Core Java</li>
+              <li>C++</li>
+              <li>Python</li>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>SQL</li>
+            </div>
+          </td>
+
+        <div class="border-skills">
+          <td data-aos="fade-left">
+            <h3 class="skills-subheading"> API's & Framework</h3>
+
+            <div class="detail-skills">
+              <li>Collection</li>
+              <li>Streams API</li>
+              <li>SpringBoot</li>
+              <li>JDBC</li>
+              <li>RactJS</li>
+            </div>
+          </td>
+        </div>
+        </div>
+      </tr>
+
+
+    <tr align="center" valign="top">
+
+      <div class="border-skills">
+        <td data-aos="fade-right">
+          <h3 class="skills-subheading"> Tools </h3>
+
+          <div class="detail-skills">
+            <li>VSCode</li>
+            <li>Eclipse IDE</li>
+            <li>SublimeText</li>
+            <li>MangoDB</li>
+            <li>Github</li>
+            <li>mySQL Workbench</li>
+          </div>
+        </td>
+      </div>
+
+
+
+      <div class="border-skills">
+        <td data-aos="slide-left">
+          <h3 class="skills-subheading">Operating System/Server</h3>
+
+          <div class="detail-skills">
+            <li>Windows</li>
+            <li>Linux</li>
+            <li>Ubantu</li>
+            <li>Solarsis</li>
+            <li>Android</li>
+          </div>
+
+        </td>
+      </div>
+    </tr>
+
+    </table>
+
+  </section>
+  <script>
+    AOS.init({
+      duration:3000
+    });
+  </script>
+
+<section id = "project" class="portfolio-section"> 
+    <h1 class="header" style="color: blue;"> Project </h1>
+
+    <div class="project-card-container">
+      <div class="card-deck">
+        
+        <div class="card">
+          <img src="https://studentprojectguide.com/wp-content/uploads/2017/09/Hospital-Management-System.png" class="card-img-top">
+
+          <div class="card-body"> 
+            <h5 class="card-title ">Hospital Management System</h5>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat. 
+            </p>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="https://static.javatpoint.com/images/core/calculator.png" height="270px" width="100px" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Calculator using Java</h5>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat. 
+            </p>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="https://miro.medium.com/v2/resize:fit:1400/1*LFD_2Rwpk_UyF1L1xotf9g.png" height="270px" class="card-img-top">
+      <div class="card-body">
+            <h5 class="card-title">Spotify Clone</h5>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat. 
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+<section id = "contact" class="portfolio-section">
+    <h1 class="header contact-header"> Contact Us</h1>
+    <div class="main-container contact-section ">
+      <!--<img src="https://st4.depositphotos.com/1026266/31520/i/450/depositphotos_315203618-stock-photo-finger-touching-phone-with-hologram.jpg" class="contact-img"> -->
+      <div class="contact-child contact-form">
+        <form>
+          <div class="form-group">
+            <label for="exampleInputEmail1">Enter Your Name</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <label for="exampleInputEmail1">Email Address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          
+          </div>
+          <div class="form-group">
+          <label for="exampleInputPassword1">Password</label>
+          <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+          <div class="form-group form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+          </div>
+          <button type="submit" class="btnbtn-primary">Submit</button>
+          </form>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+<section id="footer">
+    <h1 class="footer-info">MADE BY Madhuri Badave @Madhuri 2024</h1>
+  </section>
+
+
 </body>
 </html>

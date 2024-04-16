@@ -1,0 +1,441 @@
+*{
+	padding : 0;
+	margin : 0;
+}
+
+.portfolio-section
+{
+	height : 500px;
+	width : 100%;
+	border: 1px solid black;
+	text-align : center;
+
+}
+
+.navigation-bar
+{
+	position : fixed;
+	width : 100%;
+	background-color : transparent;
+	background-filter : blur(20px);
+	z-index: 1;
+	background-color: black;
+/*	opacity: 0.5;*/
+}
+
+.portfolio-section
+{
+	margin-top : px;
+}
+
+html
+{
+	scroll-behaviour :smooth;
+}
+
+.main-container
+{
+	position: relative;
+	font-size: 50px;
+	font-display: Algerian ;
+	font-variant: small-caps;
+	color: blue;
+}
+
+.brand
+{
+	font-size: 40px;
+	font-family: Algerian;
+	font-variant: small-caps;
+	color: white;
+	margin-left: 80px;
+}
+
+.nav-menu
+{
+	color: white;
+	font-size: 20px;
+	font-family: Times New Roman;
+	font-weight: bolder;
+	padding-left: 15px;
+}
+
+.nav-menu:hover
+{
+	/*text-decoration: underline 2px solid black;
+	text-underline-offset: 6px;*/
+	color: black;
+	font-size: 23px;
+	background-color: white;
+	padding: 10px 25px;
+	border-radius: 25px;
+}
+
+
+.tracking-in-expand {
+	-webkit-animation: tracking-in-expand 1.5s cubic-bezier(0.215, 0.610, 0.355, 1.000) infinite both;
+	        animation: tracking-in-expand 1.5s cubic-bezier(0.215, 0.610, 0.355, 1.000) infinite both;
+}
+
+@-webkit-keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+#home
+{
+	height: 500px;
+/*	background-image: url("https://i.pinimg.com/736x/49/7a/f1/497af111cd48bf5000c50a08d9c4211d.jpg");*/
+	background-repeat: no-repeat;
+	background-size: 45%;
+	background-position: 90% 20%;
+	border: none;
+}
+
+
+#home-info
+{
+	position: absolute;
+	top: 100px;
+	width: 600px;
+	height: 300px;
+	font-size: 30px;
+	font-family: Lucida Fax;
+	margin-top: 50px;
+	color: black;
+	font-weight: bolder;
+}
+
+.home-img
+{
+	margin: 9.5% 50%;
+	height: 350px;
+	width: 350px;
+	background-size: 45%;
+	background-position: 90% 20%;
+	border-radius:50%;
+	border: 2px solid white;
+}
+
+
+.scale-in-center {
+	-webkit-animation: scale-in-center 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 3 both;
+	        animation: scale-in-center 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 3 both;
+}
+
+@-webkit-keyframes scale-in-center {
+  0% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 1;
+  }
+}
+
+
+@keyframes scale-in-center {
+  10% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+    opacity: 1;
+  }
+
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 1;
+  }
+}
+
+
+
+	
+.btn-resume
+{
+	font-size: 15px;
+	height: 50px;
+	width: 120px;
+	background-color: lightskyblue;
+	border-radius: 25px;
+	margin-top: 50px;
+	font-weight: bolder;
+	transition-duration: 0.5s;
+}
+
+.btn-resume:hover
+{
+	transform: scale(1.2);
+	background-color: black;
+	color: white;
+	border: 1px solid white;
+	font-size: 18px;
+}
+
+
+
+.typewriter {
+  color: #fff;
+  font-family: monospace;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em ; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .10em; /* Adjust as needed */
+  animation: typing 3.5s steps(50, end) ;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 50% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: blue }
+}
+ .about-section{
+ 	height: 600px;
+ 	width: 100%;
+ 	background-color:whitesmoke;
+ }
+ .aboutmain
+ {
+ 	height: 500px;
+ 	width: 100%;
+ 	margin-top:50px ;
+ 	display: flex;
+ 	font-size: 20px;
+ 	font-family: sans-serif;
+ 	font-weight: bolder;
+ }
+ .aboutmain div
+ {
+ 	height: 400px;
+ 	width: 50%;
+ }
+ .skill-section
+{
+	height: 850px;
+	width: 100%;
+	background-color: whitesmoke;
+}
+
+.skill-header
+{
+	margin-top: 100px;
+	color:blue;
+	font-size: 50px;
+}
+
+.skill-tbl
+{
+	margin-top: 40px;
+	height: 250px;
+	width: 70%;
+	margin-left: 15%;
+	border-spacing: 20px 0;
+	border-collapse: separate;
+}
+
+.skill-tbl tr td 
+{
+	padding: 30px;
+	border-radius: 15px;
+	box-shadow: 0px 0px 5px gray;
+	transition-duration: 1.5s;
+}
+
+
+.skill-tbl tr td:hover
+{
+	transform: scale(1.05);
+	border: 1px solid gray;
+	box-shadow: 8px 12px 18px gray;
+	border-radius: 30px;
+	background-color: white;
+}
+
+
+.skills-subheading
+{
+	color: black;
+	font-size: 25px;
+	font-variant: small-caps;
+}
+
+
+
+.detail-skills
+{
+	font-size: 15px;
+	font-weight: bolder;
+	color: blue;
+	line-height: 30px;
+	margin-top: 20px;
+}
+
+#project
+{
+	height: 650px;
+	width: 100%;
+	padding: 10px;
+	
+}
+
+.project-card-container
+{
+	padding: 20px;
+	margin-top: 20px;
+}
+
+.card:hover
+{
+	transform: scale(1.05);
+	border: 1px solid gray;
+	box-shadow: 8px 12px 18px gray;
+	border-radius: 20px;
+}
+
+.card-title
+{
+	color: darkblue;
+	text-align: center;
+	font-family: Lucida Fax;
+	font-weight: bolder;
+	font-size: 27px;
+}
+
+.card-title:hover
+{
+	text-decoration: underline 1px solid gray;
+	text-underline-offset: 5px;
+	cursor: pointer;
+	transition-duration: 0.5s;
+}
+
+.card-text
+{
+	color: darkblue;
+	text-align: center;
+	font-family: Lucida Fax;
+	font-weight: bolder;
+	font-size: 15px;
+}
+
+#contact{
+    height: 300px;
+    width: 90%;
+    padding-left: 10%;
+    background-color: whitesmoke;
+    border: none;
+}
+
+
+#contact {
+  height: 1000px;
+  width: 100%;
+  background-image: url(https://www.lincad.co.uk/wp-content/uploads/2022/08/contact-us-scaled-1.jpg);
+}
+
+.contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.contact-info
+.contact-form {
+  flex: 1;
+  padding: 20px;
+}
+
+.contact-info h2,
+.contact-form h2 {
+  font-size: 30px;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.contact-info table {
+  width: 100%;
+}
+
+.contact-info table td {
+  padding: 10px 0;
+}
+
+.contact-form .form-group {
+  margin-bottom: 20px;
+}
+
+.contact-form button {
+  width: 50%;
+  height: 50px;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 10px;
+  background-color: royalblue;
+  color: white;
+  border: none;
+  transition-duration: 0.5s;
+}
+
+.contact-form button:hover {
+  background-color: white;
+  color: royalblue;
+  border: 2px solid royalblue;
+  transform: scale(1.1);
+}
+.form-group{
+
+font-size: 20px;
+text-align: center;
+width: 400px;
+margin-left: 500px; 
+margin-top: 70px;
+
+}
+#footer{
+	height: 50px;
+	width: 100%;
+	background-color: black;
+	text-align: center;
+}
+#footerinfo{
+	font-size: 10px;
+	line-height: 10px;
+	color: white;
+}
+.card-img-top{
+	height: 300px;
+	width: 100%px;
+}
